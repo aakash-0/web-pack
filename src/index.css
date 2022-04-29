@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+#root{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+}
+img{
+    background-color: transparent;
+    background: inherit;
+    width:100px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    left:50vw;
+    top:100px;
+}
+.inputD{
+    height:100px;
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 10px;
+}
+.wrap{
+    width:350px;
+    height:40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+input{
+    border:none;
+    background-color: rgb(193, 193, 193);
+    height:30px;
+    width: 220px;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    height:30px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: medium;
+    letter-spacing: 1.2px;
+    background: rgb(131, 131, 188);
+}
+
+.outD,ul{
+    min-height: 30px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+li{
+    height: auto;
+    min-height: 30px;
+    width: 70%;
+    background: white;
+    border-radius: 5px;
+    margin-top: 8px;
+
+}
+ul{
+    list-style-type:none;
+    }
